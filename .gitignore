@@ -1,0 +1,11 @@
+# IDE and jupyter stuff
+.vscode/
+.ipynb_checkpoints/
+
+# build directory
+build/
+
+# datasets, ascii tile images and trained models
+data/
+models/
+
