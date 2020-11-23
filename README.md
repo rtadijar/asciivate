@@ -7,14 +7,14 @@ Asciivate is a CUDA app that transforms a video stream into structure-based ASCI
 Run without arguments, it converts the default camera stream and displays it back to the user.
 Additionaly, it can be called with *src* and *dst* arguments to convert a video file.
 
-The repository also contains code for creating a labeled dataset and training classifiers on that dataset. The labeled dataset is made by comparing many image patches with all the font tiles used. The most "similar" tile wins. The similarity metric is based on SSIM at its core, with several modifications that make the result more aesthetically pleasing.
+The repository also contains code for creating a labeled dataset and training classifiers. The label of a single image patch is decided by comparing it with all the character tiles used. The most "similar" tile wins. The similarity metric is based on SSIM, with several modifications that make the result more aesthetically pleasing.
 
 ###### <sup>1</sup>Mileage may vary depending on one's GPU. The use of cv::imshow() may underrepresent the actual framerate achievable by the machine.
 
 ## Examples (click for full size)
 
-<img src="images/clocks.gif" width="50%"></img>
-<img src="images/swirls.gif" width="50%"></img>
+<img src="images/clocks.gif" width="40%"></img>
+<img src="images/swirls.gif" width="40%"></img>
 
 ## Repository structure
 
