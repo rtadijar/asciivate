@@ -1,4 +1,4 @@
-# Asciivate - real-time Structural ASCII-art
+# Asciivate
 
 ![](images/asciivate.gif)
 
@@ -11,10 +11,10 @@ The repository also contains code for creating a labeled dataset and training cl
 
 ###### <sup>1</sup>Mileage may vary depending on one's GPU. The use of cv::imshow() may underrepresent the actual framerate achievable by the machine.
 
-## Examples (click for full size)
+## Examples
 
-<img src="images/clocks.gif" width="40%"></img>
-<img src="images/swirls.gif" width="40%"></img>
+<img src="images/clocks.gif" width="45%"></img>
+<img src="images/swirls.gif" width="45%"></img>
 
 ## Repository structure
 
